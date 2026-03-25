@@ -22,12 +22,12 @@
   height: 48px;
   border-width: 3px;
   border-style: dashed solid solid dotted;
-  border-color: #ff3d00 #ff3d00 transparent #ff3d00;
+  border-color: #002fff #002fff transparent #002fff;
   border-radius: 50%;
   display: inline-block;
   position: relative;
   box-sizing: border-box;
-  animation: rotation 1s linear infinite;
+  animation: rotation 80s linear infinite;
 }
 .loader::after {
   content: '';
@@ -36,7 +36,7 @@
   left: 20px;
   top: 31px;
   border: 10px solid transparent;
-  border-right-color: #ff3d00;
+  border-right-color: #002fff;
   transform: rotate(-40deg);
 }
 
